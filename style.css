@@ -1,0 +1,353 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 150%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+
+.header-container{
+	max-width: 1960px;
+	margin: 0 auto;
+	background: #fbfbfb;
+}
+.headerhead{
+	display: flex;
+	justify-content: center;
+}
+.headerhead a{
+	font-size: 32px;
+	color: #000;
+	padding: 24px;
+	font-weight: 800;
+	display: inline-block;
+}
+
+.introduce{
+	max-width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.introduce img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.introduce-text-one{
+	width: 50%;
+	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.introduce-text-one h2{
+	font-size: 120px;
+	line-height: 150%;
+	font-weight: 700;
+	color: #0027D5;
+	font-family: "Noto Sans TC", sans-serif;
+	padding-bottom: 12px;
+
+}
+.introduce-text-one p{
+	font-size: 28px;
+	color: #0027D5;
+	font-weight: 700;
+	font-family: "Noto Sans TC", sans-serif;
+}
+.introduce-text-two{
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 24px;
+}
+
+.body-container {
+	max-width: 1296px;
+	margin: 0 auto;
+	background: #fbfbfb;
+	margin-bottom: 20px;
+	padding-top: 80px;
+}
+
+.search-bar{
+	width: 40%;
+	font-size: 20px;
+	border-radius: 80px;
+	padding: 16px 60px;
+	background-image: url(https://media.istockphoto.com/id/924437708/zh/向量/放大鏡圖示.jpg?s=612x612&w=0&k=20&c=J_AHjUIa1X2kNFiavYxx744wFDOz-3OBr_143PCISzo=);
+	background-repeat: no-repeat;
+	background-position: 10px center;
+	background-size: 60px;
+}
+
+
+.body{
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	padding-bottom: 30px;
+}
+.blog{
+	width: 30%;
+	height: auto;
+	padding: 1%;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: block;
+}
+.blog img{
+	width: 100%;
+	margin: auto;
+}
+.blogp time{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.blogp a{
+	display: block;
+	display: inline-block;
+    text-decoration: none;
+	padding-bottom: 10px;
+}
+.blogdate{
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.htage{
+	font-size: 24px;
+	color: #0027D5;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.newpost{
+	display: block;
+	width: 88px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	background: blue;
+	border: 1px solid #000;
+	padding-top: 10px;
+	border-radius: 25px;
+}
+.blogp h2{
+	font-size: 28px;
+	font-weight: 700;
+	padding-bottom: 10px;
+}
+.blogtext{
+	line-height: 1.5;
+  	font-weight: 500;
+	color:#4B4B4B;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 16px;
+}
+.button{
+	display: block;
+}
+.button a{
+	border: 1px solid #000;
+    border-radius: 80px;
+    padding: 8px 16px;
+    color: #4B4B4B;
+    line-height: 1.5; 
+}
+.page{
+	width: 20%;
+	margin: 0 auto;
+	display: flex;
+	background-color: #fff;
+	border-radius: 25px;
+	
+	
+}
+.page a{
+	justify-content: space-around;
+	font-size: 30px;
+	line-height: 1.5;
+	padding: 5px;
+	color: #4B4B4B;
+}
+
+
+
+
+
+
+.footer{
+	max-width: 1920px;
+	margin: 0 auto;
+	background: #fbfbfb;
+	border-top: 1px solid #000;
+}
+.footer-container{
+	padding: 80px;
+	display: flex;
+	justify-content: space-around;
+}
+.footer p{
+	font-size: 16px;
+	line-height: 150%;
+	text-align: center;
+	padding: 24px;
+}
+.footer-mail{
+	align-items: center;
+}
+.footer-mail p{
+	font-size: 32px;
+	line-height: 150%;
+}
+.footer-social{
+	display: flex;
+}
+.footer-social ul{
+	display: flex;
+	align-items: center;
+	
+}
+
+
+
+
+
+
+
+
+/* 平板裝置：螢幕寬度小於 992px */
+@media (max-width: 992px) {
+  .introduce {
+    flex-direction: column;
+  }
+  .introduce-img-one, .introduce-text-one {
+    max-width: 100%;
+  }
+  .introduce-text-one {
+	height: 180px;
+  }
+  .introduce-text-one h2 {
+    font-size: 72px;
+  }
+  .introduce-text-one p {
+    font-size: 24px;
+  }
+  .search-bar {
+    width: 80%;
+    font-size: 18px;
+    padding: 12px 40px;
+    background-size: 40px;
+  }
+  .blog {
+    width: 45%;
+    margin-bottom: 10px;
+  }
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page a {
+	width: 100%;
+  }
+}
+
+/* 手機裝置：螢幕寬度小於 767px */
+@media (max-width: 767px) {
+  .headerhead a {
+    font-size: 24px;
+    padding: 16px;
+  }
+  .introduce-text-one h2 {
+    font-size: 48px;
+    line-height: 1.2;
+  }
+  .introduce-text-one p {
+    font-size: 18px;
+  }
+  .introduce {
+    flex-direction: column;
+  }
+  .introduce-img-one, .introduce-text-one {
+    max-width: 100%;
+  }
+  .introduce-text-two {
+    max-width: 100%;
+  }
+  .search-bar {
+    width: 80%;
+    font-size: 16px;
+    padding: 12px 36px;
+    background-size: 30px;
+  }
+  .body {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog {
+    width: 90%;
+    padding: 5%;
+  }
+  .blog img
+  .footer-container {
+    padding: 40px 20px;
+  }
+  .blog img{
+	width: 100%;
+  }
+  .footer-mail p {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+}
