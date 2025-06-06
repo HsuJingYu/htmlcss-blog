@@ -75,6 +75,9 @@ a{
 	height: auto;
 	display: block;
 }
+.introduce-img-one{
+	width: 50%;
+}
 .introduce-text-one{
 	width: 50%;
 	background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2025-web-camp/desktop/index/Hero%20Section2.png?raw=true);
@@ -82,6 +85,7 @@ a{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding-left: 40px;
 }
 .introduce-text-one h2{
 	font-size: 120px;
@@ -205,9 +209,10 @@ a{
     line-height: 1.5; 
 }
 .page{
-	width: 20%;
+	width: 35%;
 	margin: 0 auto;
 	display: flex;
+	justify-content: center;
 	background-color: #fff;
 	border-radius: 25px;
 	
@@ -272,7 +277,7 @@ a{
     flex-direction: column;
   }
   .introduce-img-one, .introduce-text-one {
-    max-width: 100%;
+    width: 100%;
   }
   .introduce-text-one {
 	height: 180px;
@@ -319,7 +324,7 @@ a{
     flex-direction: column;
   }
   .introduce-img-one, .introduce-text-one {
-    max-width: 100%;
+    width: 100%;
   }
   .introduce-text-two {
     max-width: 100%;
@@ -344,6 +349,9 @@ a{
   }
   .blog img{
 	width: 100%;
+  }
+  .page {
+	width: 50%;
   }
   .footer-mail p {
     font-size: 24px;
